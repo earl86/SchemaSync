@@ -87,7 +87,9 @@ def compare_version(x, y, separator=r'[.-]'):
     for index in range(min(len(x_array), len(y_array))):
         if x_array[index] != y_array[index]:
             try:
-                return cmp(int(x_array[index]), int(y_array[index]))
+                a = int(x_array[index])
+                b = int(y_array[index])
+                return (a > b) - (a < b)
             except ValueError:
                 return 0
     return 0
