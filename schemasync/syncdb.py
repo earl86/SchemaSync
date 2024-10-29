@@ -1,4 +1,4 @@
-from utils import REGEX_TABLE_AUTO_INC, REGEX_TABLE_COMMENT
+from schemasync.utils import REGEX_TABLE_AUTO_INC, REGEX_TABLE_COMMENT
 
 
 def sync_schema(fromdb, todb, options):

@@ -6,8 +6,8 @@ import os
 import logging
 import datetime
 import optparse
-import syncdb
-import utils
+from schemasync import syncdb
+from schemasync import utils
 import warnings
 
 __author__ = """
