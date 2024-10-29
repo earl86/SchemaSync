@@ -8,7 +8,7 @@ except ImportError:
 
 setuptools.setup(
     name='SchemaSync',
-    version='0.9.7',
+    version='0.9.8',
     description='A MySQL Schema Synchronization Utility',
     author='Mitch Matuson, Mustafa Ozgur',
     packages=['schemasync'],
