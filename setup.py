@@ -1,11 +1,12 @@
 #!/usr/bin/env python
-import ez_setup
+try:
+    import setuptools
+except ImportError:
+    import ez_setup
+    ez_setup.use_setuptools()
+    import setuptools
 
-ez_setup.use_setuptools()
-
-from setuptools import setup
-
-setup(
+setuptools.setup(
     name='SchemaSync',
     version='0.9.7',
     description='A MySQL Schema Synchronization Utility',
