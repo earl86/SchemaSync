@@ -39,7 +39,7 @@ except ImportError:
 APPLICATION_VERSION = __version__
 APPLICATION_NAME = "Schema Sync"
 LOG_FILENAME = "schemasync.log"
-DATE_FORMAT = "%Y%m%d"
+DATE_FORMAT = "%Y%m%d-%H%M%S"
 TPL_DATE_FORMAT = "%a, %b %d, %Y"
 PATCH_TPL = """--
 -- Schema Sync %(app_version)s %(type)s
