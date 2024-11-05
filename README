@@ -58,6 +58,8 @@ Prerequisites
     - MySQL <http://www.mysql.com/>, version 5.0 or higher
     - PyMySQL <https://github.com/PyMySQL/PyMySQL>, version 0.6.2 or higher
     - Schema-Object <https://github.com/hhyo/SchemaObject> 0.5.11 or higher
+    or
+    - SchemaObject <https://github.com/mmatuson/SchemaObject> 0.5.10 or higher
 * To run the test suite, you need to install a copy of the Sakila Database <http://dev.mysql.com/doc/sakila/en/index.html>, version 0.8
 
 Standard Installation
